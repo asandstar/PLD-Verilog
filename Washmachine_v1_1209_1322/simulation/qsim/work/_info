@@ -1,0 +1,165 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\altera\13.1\00Project\Washmachine\simulation\qsim
+vPrescalerTen
+Z1 !s100 QF6PlXX2jN@EA6`;MOHi50
+Z2 I6>=PB1i^ibU^?oIhB^Xc33
+Z3 V;:jM8;QVl45zm4aGV5hlD3
+Z4 dD:\altera\13.1\00Project\Washmachine\simulation\qsim
+Z5 w1701591679
+Z6 8Washmachine.vo
+Z7 FWashmachine.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|Washmachine.vo|
+Z10 o-work work -O0
+Z11 n@prescaler@ten
+Z12 !s108 1701591680.856000
+Z13 !s107 Washmachine.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+vPrescalerTen_vlg_check_tst
+Z14 !s100 N64LDF^eRa?7f;dZ7^>A61
+Z15 IQoH`zW4bNdhAbhNa;KKoJ3
+Z16 VFG_i19^Db>lWGE0P3VU4c2
+R4
+Z17 w1701591677
+Z18 8testfenpin10.vwf.vt
+Z19 Ftestfenpin10.vwf.vt
+L0 57
+R8
+r1
+31
+Z20 !s108 1701591680.941000
+Z21 !s107 testfenpin10.vwf.vt|
+Z22 !s90 -work|work|testfenpin10.vwf.vt|
+R10
+Z23 n@prescaler@ten_vlg_check_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vPrescalerTen_vlg_sample_tst
+Z24 !s100 hlgdh]kYAdf>a4H:@BjMn2
+Z25 Ihfk6oK[51>zh]4HC[CBiX0
+Z26 V;5`4e?k<AYk>9?W9dAm460
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+31
+R20
+R21
+R22
+R10
+Z27 n@prescaler@ten_vlg_sample_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vPrescalerTen_vlg_vec_tst
+Z28 !s100 J7XO`B=@2Jn1Z7CLOiJ7m0
+Z29 I?:N1fmNzVfl5Z`V8^5UM_0
+Z30 Vid]GEH@mV?czEf0>=AciR1
+R4
+R17
+R18
+R19
+Z31 L0 152
+R8
+r1
+31
+R20
+R21
+R22
+R10
+Z32 n@prescaler@ten_vlg_vec_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vSegDecode
+Z33 Ieh@820BcJRI8N@oIYT@c[1
+Z34 V3HPa_Q<fWkIF^2UJfaleO3
+R4
+Z35 w1701592932
+R6
+R7
+L0 31
+R8
+r1
+31
+R9
+R10
+Z36 n@seg@decode
+!i10b 1
+Z37 !s100 <?fl:@45JoFbA@R2_YVRG3
+!s85 0
+Z38 !s108 1701592933.758000
+R13
+!s101 -O0
+vSegDecode_vlg_check_tst
+!i10b 1
+!s100 i>kBG?C1J38PkAno9?VeI0
+IFanHNE>;]PNa7j9a6;OS=3
+V4e8QBH9zCm?=o]fJkONVT0
+R4
+Z39 w1701592930
+Z40 8testsegdecode.vwf.vt
+Z41 Ftestsegdecode.vwf.vt
+L0 57
+R8
+r1
+!s85 0
+31
+Z42 !s108 1701592933.896000
+Z43 !s107 testsegdecode.vwf.vt|
+Z44 !s90 -work|work|testsegdecode.vwf.vt|
+!s101 -O0
+R10
+Z45 n@seg@decode_vlg_check_tst
+vSegDecode_vlg_sample_tst
+!i10b 1
+Z46 !s100 jOPGcCOE]cV4Jo[IK9ld>2
+Z47 Ic;1^;IeR0bag2j`]09a943
+Z48 VenAiWEZ;1MWYEhCD5aGb@2
+R4
+R39
+R40
+R41
+L0 29
+R8
+r1
+!s85 0
+31
+R42
+R43
+R44
+!s101 -O0
+R10
+Z49 n@seg@decode_vlg_sample_tst
+vSegDecode_vlg_vec_tst
+!i10b 1
+!s100 TLO[dS:g]SZFGbnbZ:I@V0
+Ij9CEak0XE^hE@82lR;T_C3
+Z50 VKC1nS[MW<oAiiUPkhJbfI0
+R4
+R39
+R40
+R41
+L0 259
+R8
+r1
+!s85 0
+31
+R42
+R43
+R44
+!s101 -O0
+R10
+Z51 n@seg@decode_vlg_vec_tst

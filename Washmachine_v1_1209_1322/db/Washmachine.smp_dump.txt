@@ -1,0 +1,9 @@
+
+State Machine - |Washmachine|WashmachineControl:washmachineControl_inst1|state
+Name state.ST2 state.ST3 state.ST4 state.ST1 state.ST0 state.ST5 
+state.ST5 0 0 0 0 0 0 
+state.ST0 0 0 0 0 1 1 
+state.ST1 0 0 0 1 0 1 
+state.ST4 0 0 1 0 0 1 
+state.ST3 0 1 0 0 0 1 
+state.ST2 1 0 0 0 0 1 

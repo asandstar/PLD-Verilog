@@ -1,0 +1,84 @@
+module MADA_State(
+	input wire clk,
+//	input wire qidong,
+//	input wire shuiman,
+//	input wire piaoxi,
+//	input wire fangshui,
+//	input wire tuoshui,
+//	input wire tinzhi,
+//	input wire baojing,
+//	input wire signal,
+	output reg [2:0]OUT
+	);
+	
+localparam ST0 = 3'b001;
+localparam ST1 = 3'b010;
+localparam ST2 = 3'b011;
+localparam ST3 = 3'b100;
+localparam ST4 = 3'b101;
+localparam ST5 = 3'b110;
+reg[2:0]state;
+always @(posedge clk, posedge RESET)begin
+	if(RESET)begin
+		state <= ST0;
+	end
+	else begin
+		case(state)
+			ST0:begin
+				OUT <= ST0;
+				if(DIR)begin
+					state <= ST1;
+				end
+				else begin
+					state <= ST5;
+				end
+			end
+ST1:begin
+	OUT <= ST1;
+	if(DIR)begin
+		state <= ST2;
+	end
+	else begin
+		state <= ST0;
+	end
+end
+ST2:begin
+	OUT <= ST2;
+	if(DIR)begin
+		state <= ST3;
+	end
+	else begin
+		state <= ST1;
+	end
+end
+ST3:begin
+	OUT <= ST3;
+	if(DIR)begin
+		state <= ST4;
+	end
+	else begin
+		state <= ST2;
+	end
+end
+ST4:begin
+	OUT <= ST4;
+	if(DIR)begin
+		state <= ST5;
+	end
+	else begin
+		state <= ST3;
+	end
+end
+			ST5:begin
+				OUT <= ST5;
+				if(DIR)begin
+					state <= ST0;
+				end
+				else begin
+					state <= ST4;
+				end
+			end
+		endcase
+	end
+end
+endmodule

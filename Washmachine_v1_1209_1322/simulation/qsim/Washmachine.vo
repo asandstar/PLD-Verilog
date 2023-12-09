@@ -1,0 +1,414 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus II 64-Bit"
+// VERSION "Version 13.1.0 Build 162 10/23/2013 SJ Web Edition"
+
+// DATE "12/09/2023 12:46:59"
+
+// 
+// Device: Altera EP3C25Q240C8 Package PQFP240
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module Washmachine (
+	clk_24M,
+	reset0,
+	start,
+	waterfull,
+	stop,
+	state_display,
+	enable,
+	segment);
+input 	clk_24M;
+input 	reset0;
+input 	start;
+input 	waterfull;
+input 	stop;
+output 	[5:0] state_display;
+output 	[3:0] enable;
+output 	[6:0] segment;
+
+// Design Ports Information
+// clk_24M	=>  Location: PIN_57,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// reset0	=>  Location: PIN_221,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// state_display[0]	=>  Location: PIN_109,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// state_display[1]	=>  Location: PIN_108,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// state_display[2]	=>  Location: PIN_107,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// state_display[3]	=>  Location: PIN_99,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// state_display[4]	=>  Location: PIN_216,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// state_display[5]	=>  Location: PIN_120,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// enable[0]	=>  Location: PIN_240,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// enable[1]	=>  Location: PIN_239,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// enable[2]	=>  Location: PIN_238,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// enable[3]	=>  Location: PIN_237,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// segment[0]	=>  Location: PIN_230,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// segment[1]	=>  Location: PIN_232,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// segment[2]	=>  Location: PIN_236,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// segment[3]	=>  Location: PIN_235,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// segment[4]	=>  Location: PIN_231,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// segment[5]	=>  Location: PIN_226,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// segment[6]	=>  Location: PIN_234,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// stop	=>  Location: PIN_95,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// waterfull	=>  Location: PIN_94,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// start	=>  Location: PIN_93,	 I/O Standard: 2.5 V,	 Current Strength: Default
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \clk_24M~input_o ;
+wire \reset0~input_o ;
+wire \stop~input_o ;
+wire \waterfull~input_o ;
+wire \start~input_o ;
+wire \state_display[0]~output_o ;
+wire \state_display[1]~output_o ;
+wire \state_display[2]~output_o ;
+wire \state_display[3]~output_o ;
+wire \state_display[4]~output_o ;
+wire \state_display[5]~output_o ;
+wire \enable[0]~output_o ;
+wire \enable[1]~output_o ;
+wire \enable[2]~output_o ;
+wire \enable[3]~output_o ;
+wire \segment[0]~output_o ;
+wire \segment[1]~output_o ;
+wire \segment[2]~output_o ;
+wire \segment[3]~output_o ;
+wire \segment[4]~output_o ;
+wire \segment[5]~output_o ;
+wire \segment[6]~output_o ;
+
+
+// Location: IOOBUF_X40_Y0_N16
+cycloneiii_io_obuf \state_display[0]~output (
+	.i(gnd),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\state_display[0]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \state_display[0]~output .bus_hold = "false";
+defparam \state_display[0]~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X40_Y0_N23
+cycloneiii_io_obuf \state_display[1]~output (
+	.i(gnd),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\state_display[1]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \state_display[1]~output .bus_hold = "false";
+defparam \state_display[1]~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X38_Y0_N2
+cycloneiii_io_obuf \state_display[2]~output (
+	.i(gnd),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\state_display[2]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \state_display[2]~output .bus_hold = "false";
+defparam \state_display[2]~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X34_Y0_N16
+cycloneiii_io_obuf \state_display[3]~output (
+	.i(gnd),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\state_display[3]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \state_display[3]~output .bus_hold = "false";
+defparam \state_display[3]~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X23_Y34_N23
+cycloneiii_io_obuf \state_display[4]~output (
+	.i(gnd),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\state_display[4]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \state_display[4]~output .bus_hold = "false";
+defparam \state_display[4]~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X51_Y0_N2
+cycloneiii_io_obuf \state_display[5]~output (
+	.i(gnd),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\state_display[5]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \state_display[5]~output .bus_hold = "false";
+defparam \state_display[5]~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X1_Y34_N9
+cycloneiii_io_obuf \enable[0]~output (
+	.i(gnd),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\enable[0]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \enable[0]~output .bus_hold = "false";
+defparam \enable[0]~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X1_Y34_N2
+cycloneiii_io_obuf \enable[1]~output (
+	.i(gnd),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\enable[1]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \enable[1]~output .bus_hold = "false";
+defparam \enable[1]~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X3_Y34_N16
+cycloneiii_io_obuf \enable[2]~output (
+	.i(gnd),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\enable[2]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \enable[2]~output .bus_hold = "false";
+defparam \enable[2]~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X3_Y34_N9
+cycloneiii_io_obuf \enable[3]~output (
+	.i(gnd),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\enable[3]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \enable[3]~output .bus_hold = "false";
+defparam \enable[3]~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X14_Y34_N9
+cycloneiii_io_obuf \segment[0]~output (
+	.i(vcc),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\segment[0]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \segment[0]~output .bus_hold = "false";
+defparam \segment[0]~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X14_Y34_N23
+cycloneiii_io_obuf \segment[1]~output (
+	.i(gnd),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\segment[1]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \segment[1]~output .bus_hold = "false";
+defparam \segment[1]~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X3_Y34_N2
+cycloneiii_io_obuf \segment[2]~output (
+	.i(gnd),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\segment[2]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \segment[2]~output .bus_hold = "false";
+defparam \segment[2]~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X7_Y34_N16
+cycloneiii_io_obuf \segment[3]~output (
+	.i(gnd),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\segment[3]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \segment[3]~output .bus_hold = "false";
+defparam \segment[3]~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X14_Y34_N16
+cycloneiii_io_obuf \segment[4]~output (
+	.i(gnd),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\segment[4]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \segment[4]~output .bus_hold = "false";
+defparam \segment[4]~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X16_Y34_N16
+cycloneiii_io_obuf \segment[5]~output (
+	.i(gnd),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\segment[5]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \segment[5]~output .bus_hold = "false";
+defparam \segment[5]~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X7_Y34_N9
+cycloneiii_io_obuf \segment[6]~output (
+	.i(gnd),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\segment[6]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \segment[6]~output .bus_hold = "false";
+defparam \segment[6]~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOIBUF_X0_Y4_N22
+cycloneiii_io_ibuf \clk_24M~input (
+	.i(clk_24M),
+	.ibar(gnd),
+	.o(\clk_24M~input_o ));
+// synopsys translate_off
+defparam \clk_24M~input .bus_hold = "false";
+defparam \clk_24M~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X18_Y34_N1
+cycloneiii_io_ibuf \reset0~input (
+	.i(reset0),
+	.ibar(gnd),
+	.o(\reset0~input_o ));
+// synopsys translate_off
+defparam \reset0~input .bus_hold = "false";
+defparam \reset0~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X29_Y0_N1
+cycloneiii_io_ibuf \stop~input (
+	.i(stop),
+	.ibar(gnd),
+	.o(\stop~input_o ));
+// synopsys translate_off
+defparam \stop~input .bus_hold = "false";
+defparam \stop~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X29_Y0_N15
+cycloneiii_io_ibuf \waterfull~input (
+	.i(waterfull),
+	.ibar(gnd),
+	.o(\waterfull~input_o ));
+// synopsys translate_off
+defparam \waterfull~input .bus_hold = "false";
+defparam \waterfull~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X29_Y0_N22
+cycloneiii_io_ibuf \start~input (
+	.i(start),
+	.ibar(gnd),
+	.o(\start~input_o ));
+// synopsys translate_off
+defparam \start~input .bus_hold = "false";
+defparam \start~input .simulate_z_as = "z";
+// synopsys translate_on
+
+assign state_display[0] = \state_display[0]~output_o ;
+
+assign state_display[1] = \state_display[1]~output_o ;
+
+assign state_display[2] = \state_display[2]~output_o ;
+
+assign state_display[3] = \state_display[3]~output_o ;
+
+assign state_display[4] = \state_display[4]~output_o ;
+
+assign state_display[5] = \state_display[5]~output_o ;
+
+assign enable[0] = \enable[0]~output_o ;
+
+assign enable[1] = \enable[1]~output_o ;
+
+assign enable[2] = \enable[2]~output_o ;
+
+assign enable[3] = \enable[3]~output_o ;
+
+assign segment[0] = \segment[0]~output_o ;
+
+assign segment[1] = \segment[1]~output_o ;
+
+assign segment[2] = \segment[2]~output_o ;
+
+assign segment[3] = \segment[3]~output_o ;
+
+assign segment[4] = \segment[4]~output_o ;
+
+assign segment[5] = \segment[5]~output_o ;
+
+assign segment[6] = \segment[6]~output_o ;
+
+endmodule
