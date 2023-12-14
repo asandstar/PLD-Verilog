@@ -1,0 +1,25 @@
+# Reading D:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Washmachine_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/altera/13.1/00Project/Washmachine {D:/altera/13.1/00Project/Washmachine/TimeCounter.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module TimeCounter
+# ** Error: D:/altera/13.1/00Project/Washmachine/TimeCounter.v(151): near "else": syntax error, unexpected else
+# ** Error: D:/altera/13.1/00Project/Washmachine/TimeCounter.v(170): near "end": syntax error, unexpected end
+# ** Error: D:/altera/13.1/00Project/Washmachine/TimeCounter.v(222): near "end": syntax error, unexpected end
+# ** Error: D:/altera/13.1/00Project/Washmachine/TimeCounter.v(253): near "<=": syntax error, unexpected <=, expecting IDENTIFIER or TYPE_IDENTIFIER
+# ** Error: D:/altera/13.1/00Project/Washmachine/TimeCounter.v(255): near "<=": syntax error, unexpected <=, expecting IDENTIFIER or TYPE_IDENTIFIER
+# ** Error: D:/altera/13.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./Washmachine_run_msim_rtl_verilog.do line 8
+# D:/altera/13.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+D:/altera/13.1/00Project/Washmachine {D:/altera/13.1/00Project/Washmachine/TimeCounter.v}"

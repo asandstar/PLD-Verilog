@@ -1,0 +1,165 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\altera\13.1\00Project\Washmachine\simulation\qsim
+vDynamicScan
+I6c0]c`=7KXfTAMfbS@Tjm0
+VJjLk0DigQ^G?Tgh;8NWNk3
+Z1 dD:\altera\13.1\00Project\Washmachine\simulation\qsim
+w1702464177
+Z2 8Washmachine.vo
+Z3 FWashmachine.vo
+L0 31
+Z4 OV;L;10.1d;51
+r1
+31
+Z5 !s90 -work|work|Washmachine.vo|
+Z6 o-work work -O0
+Z7 n@dynamic@scan
+Z8 !s107 Washmachine.vo|
+!i10b 1
+!s100 bjXk4Yn1AOmNaH[R[E2@<1
+!s85 0
+!s108 1702464178.167000
+!s101 -O0
+vDynamicScan_vlg_check_tst
+IN4CIB276JT2IBn?l<QiB51
+VjgJ[91g4=fGJ0dDBf5?UC2
+R1
+Z9 w1702464175
+Z10 8testdynamic.vwf.vt
+Z11 Ftestdynamic.vwf.vt
+L0 65
+R4
+r1
+31
+Z12 !s108 1702464178.261000
+Z13 !s107 testdynamic.vwf.vt|
+Z14 !s90 -work|work|testdynamic.vwf.vt|
+R6
+Z15 n@dynamic@scan_vlg_check_tst
+!i10b 1
+!s100 zlYCi^6`fES0=1Pcc`PhK1
+!s85 0
+!s101 -O0
+vDynamicScan_vlg_sample_tst
+Z16 !s100 RmR7MmoJNCFHg:2]FGOY@0
+Z17 Iaiab4:K_h:NZdKP3Ce=<>2
+Z18 V6FfaNH1i>a81fVHVAhz1d1
+R1
+R9
+R10
+R11
+L0 29
+R4
+r1
+31
+R12
+R13
+R14
+R6
+Z19 n@dynamic@scan_vlg_sample_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vDynamicScan_vlg_vec_tst
+Iahl:20D3Zo771C3fXaL?80
+Z20 VBY0RYWgk2FYX=7UaWSCfh2
+R1
+R9
+R10
+R11
+L0 431
+R4
+r1
+31
+R12
+R13
+R14
+R6
+Z21 n@dynamic@scan_vlg_vec_tst
+!i10b 1
+!s100 ZO2T<S]C6B0hd?F6Sn7VB2
+!s85 0
+!s101 -O0
+vWashmachine
+I0d^CPFVlXQ5?C2nMmHLRS0
+Z22 VG=nnPlWHGGJBD5nD1eiFG3
+R1
+w1702465217
+R2
+R3
+L0 31
+R4
+r1
+31
+R5
+R6
+Z23 n@washmachine
+!i10b 1
+!s100 n;EnGIQNUa2:D<JAh[FdA2
+!s85 0
+!s108 1702465218.202000
+R8
+!s101 -O0
+vWashmachine_vlg_check_tst
+!i10b 1
+Z24 !s100 ^H6o<BaTL5EmnE[Oa1=h83
+Z25 IU7WVF9`IFYC:G;4SkU5EU1
+Z26 VJl4NKk;>z>1U_O8;?2I3b3
+R1
+Z27 w1702465215
+Z28 8testmachine.vwf.vt
+Z29 Ftestmachine.vwf.vt
+L0 65
+R4
+r1
+!s85 0
+31
+Z30 !s108 1702465218.327000
+Z31 !s107 testmachine.vwf.vt|
+Z32 !s90 -work|work|testmachine.vwf.vt|
+!s101 -O0
+R6
+Z33 n@washmachine_vlg_check_tst
+vWashmachine_vlg_sample_tst
+!i10b 1
+Z34 !s100 ^NG6bCGW?YW7[<9;E^fVh3
+Z35 I;M_7GQdi5bKj^4EnhmcBh3
+Z36 V5lJ_?[NTZPMmUZ6Iz^e0c3
+R1
+R27
+R28
+R29
+L0 29
+R4
+r1
+!s85 0
+31
+R30
+R31
+R32
+!s101 -O0
+R6
+Z37 n@washmachine_vlg_sample_tst
+vWashmachine_vlg_vec_tst
+!i10b 1
+!s100 fizoN<Jo2ClF?UacUIAmH3
+I[of5R7GSLb7SQbW@:7S5h3
+Z38 Vb7`UIIHm;A8efT60<hd3Q3
+R1
+R27
+R28
+R29
+L0 480
+R4
+r1
+!s85 0
+31
+R30
+R31
+R32
+!s101 -O0
+R6
+Z39 n@washmachine_vlg_vec_tst

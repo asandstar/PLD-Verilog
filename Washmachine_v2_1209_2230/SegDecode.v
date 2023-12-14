@@ -4,7 +4,7 @@ module SegDecode(
 	//数码管段选
 	output reg [6:0] segment  
 );
-//马上执行显示
+//马上执行显示，低电平点亮
 always @(*)begin
 	case(seg)
 		4'b0000: segment = 7'b0000001;//0

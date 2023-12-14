@@ -1,0 +1,9 @@
+
+State Machine - |Washmachine|WashmachineControl:washmachineControl_inst|state
+Name state.st4_dewater state.st5_alarm state.st2_wash state.st3_water state.st1_supply state.st0_idle 
+state.st0_idle 0 0 0 0 0 0 
+state.st1_supply 0 0 0 0 1 1 
+state.st3_water 0 0 0 1 0 1 
+state.st2_wash 0 0 1 0 0 1 
+state.st5_alarm 0 1 0 0 0 1 
+state.st4_dewater 1 0 0 0 0 1 

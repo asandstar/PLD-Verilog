@@ -1,0 +1,303 @@
+|Washmachine
+clk_24M => clk_24M.IN2
+reset0 => reset0.IN2
+start => start.IN1
+waterfull => waterfull.IN1
+stop => stop.IN1
+state_display_out[0] <= WashmachineControl:washmachineControl_inst.state_led
+state_display_out[1] <= WashmachineControl:washmachineControl_inst.state_led
+state_display_out[2] <= WashmachineControl:washmachineControl_inst.state_led
+state_display_out[3] <= WashmachineControl:washmachineControl_inst.state_led
+state_display_out[4] <= WashmachineControl:washmachineControl_inst.state_led
+state_display_out[5] <= WashmachineControl:washmachineControl_inst.state_led
+enable_out[0] <= DynamicScan:dynamicScan_inst.enable
+enable_out[1] <= DynamicScan:dynamicScan_inst.enable
+enable_out[2] <= DynamicScan:dynamicScan_inst.enable
+enable_out[3] <= DynamicScan:dynamicScan_inst.enable
+segment_out[0] <= DynamicScan:dynamicScan_inst.segment
+segment_out[1] <= DynamicScan:dynamicScan_inst.segment
+segment_out[2] <= DynamicScan:dynamicScan_inst.segment
+segment_out[3] <= DynamicScan:dynamicScan_inst.segment
+segment_out[4] <= DynamicScan:dynamicScan_inst.segment
+segment_out[5] <= DynamicScan:dynamicScan_inst.segment
+segment_out[6] <= DynamicScan:dynamicScan_inst.segment
+
+
+|Washmachine|PrescalerSix:prescalerSix_inst
+clk_in => clk_out~reg0.CLK
+clk_in => count[0].CLK
+clk_in => count[1].CLK
+clk_in => count[2].CLK
+clk_in => count[3].CLK
+clk_out <= clk_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Washmachine|PrescalerFour:prescalerFour_inst
+clk_in => clk_out~reg0.CLK
+clk_in => count[0].CLK
+clk_in => count[1].CLK
+clk_in => count[2].CLK
+clk_in => count[3].CLK
+clk_out <= clk_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Washmachine|PrescalerTen:prescalerTen_inst1
+clk_in => clk_out~reg0.CLK
+clk_in => count[0].CLK
+clk_in => count[1].CLK
+clk_in => count[2].CLK
+clk_in => count[3].CLK
+clk_out <= clk_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Washmachine|PrescalerTen:prescalerTen_inst2
+clk_in => clk_out~reg0.CLK
+clk_in => count[0].CLK
+clk_in => count[1].CLK
+clk_in => count[2].CLK
+clk_in => count[3].CLK
+clk_out <= clk_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Washmachine|PrescalerTen:prescalerTen_inst3
+clk_in => clk_out~reg0.CLK
+clk_in => count[0].CLK
+clk_in => count[1].CLK
+clk_in => count[2].CLK
+clk_in => count[3].CLK
+clk_out <= clk_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Washmachine|PrescalerTen:prescalerTen_inst4
+clk_in => clk_out~reg0.CLK
+clk_in => count[0].CLK
+clk_in => count[1].CLK
+clk_in => count[2].CLK
+clk_in => count[3].CLK
+clk_out <= clk_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Washmachine|PrescalerTen:prescalerTen_inst5
+clk_in => clk_out~reg0.CLK
+clk_in => count[0].CLK
+clk_in => count[1].CLK
+clk_in => count[2].CLK
+clk_in => count[3].CLK
+clk_out <= clk_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Washmachine|WashmachineControl:washmachineControl_inst
+clk => state_led[0]~reg0.CLK
+clk => state_led[1]~reg0.CLK
+clk => state_led[2]~reg0.CLK
+clk => state_led[3]~reg0.CLK
+clk => state_led[4]~reg0.CLK
+clk => state_led[5]~reg0.CLK
+clk => state~1.DATAIN
+reset => state_led[0]~reg0.ACLR
+reset => state_led[1]~reg0.PRESET
+reset => state_led[2]~reg0.PRESET
+reset => state_led[3]~reg0.PRESET
+reset => state_led[4]~reg0.PRESET
+reset => state_led[5]~reg0.PRESET
+reset => state~3.DATAIN
+start => Selector0.IN5
+start => Selector1.IN1
+waterfull => state.DATAA
+waterfull => state.DATAA
+stop => state.OUTPUTSELECT
+stop => state.OUTPUTSELECT
+stop => Selector0.IN0
+stop => state.OUTPUTSELECT
+stop => state.OUTPUTSELECT
+stop => Selector0.IN1
+stop => state.OUTPUTSELECT
+stop => state.OUTPUTSELECT
+stop => Selector0.IN2
+stop => state.OUTPUTSELECT
+stop => state.OUTPUTSELECT
+stop => Selector0.IN3
+stop => state.OUTPUTSELECT
+stop => state.OUTPUTSELECT
+wash => state.DATAA
+wash => state.DATAA
+water => state.DATAA
+water => state.DATAA
+dewater => state.DATAA
+dewater => state.DATAA
+alarm => state.DATAA
+alarm => state.DATAA
+state_out[0] <= state_out.DB_MAX_OUTPUT_PORT_TYPE
+state_out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+state_out[2] <= state_out.DB_MAX_OUTPUT_PORT_TYPE
+state_led[0] <= state_led[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state_led[1] <= state_led[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state_led[2] <= state_led[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state_led[3] <= state_led[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state_led[4] <= state_led[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state_led[5] <= state_led[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Washmachine|TimeCounter:timeCounter_inst
+clk => alarmsig.CLK
+clk => dewatersig.CLK
+clk => watersig.CLK
+clk => washsig.CLK
+clk => ctseg0[0].CLK
+clk => ctseg0[1].CLK
+clk => ctseg0[2].CLK
+clk => ctseg0[3].CLK
+clk => ctseg1[0].CLK
+clk => ctseg1[1].CLK
+clk => ctseg1[2].CLK
+clk => ctseg1[3].CLK
+clk => ctseg2[0].CLK
+clk => ctseg2[1].CLK
+clk => ctseg2[2].CLK
+clk => ctseg2[3].CLK
+clk => ctseg3[0].CLK
+clk => ctseg3[1].CLK
+clk => ctseg3[2].CLK
+clk => ctseg3[3].CLK
+reset => alarmsig.ACLR
+reset => dewatersig.ACLR
+reset => watersig.ACLR
+reset => washsig.ACLR
+reset => ctseg0[0].ACLR
+reset => ctseg0[1].ACLR
+reset => ctseg0[2].ACLR
+reset => ctseg0[3].ACLR
+reset => ctseg1[0].ACLR
+reset => ctseg1[1].ACLR
+reset => ctseg1[2].ACLR
+reset => ctseg1[3].ACLR
+reset => ctseg2[0].ACLR
+reset => ctseg2[1].ACLR
+reset => ctseg2[2].ACLR
+reset => ctseg2[3].ACLR
+reset => ctseg3[0].ACLR
+reset => ctseg3[1].ACLR
+reset => ctseg3[2].ACLR
+reset => ctseg3[3].ACLR
+state_in[0] => Mux0.IN8
+state_in[0] => Mux1.IN8
+state_in[0] => Mux2.IN8
+state_in[0] => Mux3.IN8
+state_in[0] => Mux4.IN8
+state_in[0] => Mux5.IN8
+state_in[0] => Mux6.IN8
+state_in[0] => Mux7.IN8
+state_in[0] => Mux8.IN7
+state_in[0] => Mux9.IN7
+state_in[0] => Mux10.IN7
+state_in[0] => Mux11.IN7
+state_in[0] => Mux12.IN6
+state_in[0] => Mux13.IN6
+state_in[0] => Mux14.IN6
+state_in[0] => Mux15.IN6
+state_in[0] => Mux16.IN8
+state_in[0] => Mux17.IN8
+state_in[0] => Mux18.IN8
+state_in[0] => Mux19.IN8
+state_in[1] => Mux0.IN7
+state_in[1] => Mux1.IN7
+state_in[1] => Mux2.IN7
+state_in[1] => Mux3.IN7
+state_in[1] => Mux4.IN7
+state_in[1] => Mux5.IN7
+state_in[1] => Mux6.IN7
+state_in[1] => Mux7.IN7
+state_in[1] => Mux8.IN6
+state_in[1] => Mux9.IN6
+state_in[1] => Mux10.IN6
+state_in[1] => Mux11.IN6
+state_in[1] => Mux12.IN5
+state_in[1] => Mux13.IN5
+state_in[1] => Mux14.IN5
+state_in[1] => Mux15.IN5
+state_in[1] => Mux16.IN7
+state_in[1] => Mux17.IN7
+state_in[1] => Mux18.IN7
+state_in[1] => Mux19.IN7
+state_in[2] => Mux0.IN6
+state_in[2] => Mux1.IN6
+state_in[2] => Mux2.IN6
+state_in[2] => Mux3.IN6
+state_in[2] => Mux4.IN6
+state_in[2] => Mux5.IN6
+state_in[2] => Mux6.IN6
+state_in[2] => Mux7.IN6
+state_in[2] => Mux8.IN5
+state_in[2] => Mux9.IN5
+state_in[2] => Mux10.IN5
+state_in[2] => Mux11.IN5
+state_in[2] => Mux12.IN4
+state_in[2] => Mux13.IN4
+state_in[2] => Mux14.IN4
+state_in[2] => Mux15.IN4
+state_in[2] => Mux16.IN6
+state_in[2] => Mux17.IN6
+state_in[2] => Mux18.IN6
+state_in[2] => Mux19.IN6
+wash <= washsig.DB_MAX_OUTPUT_PORT_TYPE
+water <= watersig.DB_MAX_OUTPUT_PORT_TYPE
+dewater <= dewatersig.DB_MAX_OUTPUT_PORT_TYPE
+alarm <= alarmsig.DB_MAX_OUTPUT_PORT_TYPE
+seg3[0] <= ctseg3[0].DB_MAX_OUTPUT_PORT_TYPE
+seg3[1] <= ctseg3[1].DB_MAX_OUTPUT_PORT_TYPE
+seg3[2] <= ctseg3[2].DB_MAX_OUTPUT_PORT_TYPE
+seg3[3] <= ctseg3[3].DB_MAX_OUTPUT_PORT_TYPE
+seg2[0] <= ctseg2[0].DB_MAX_OUTPUT_PORT_TYPE
+seg2[1] <= ctseg2[1].DB_MAX_OUTPUT_PORT_TYPE
+seg2[2] <= ctseg2[2].DB_MAX_OUTPUT_PORT_TYPE
+seg2[3] <= ctseg2[3].DB_MAX_OUTPUT_PORT_TYPE
+seg1[0] <= ctseg1[0].DB_MAX_OUTPUT_PORT_TYPE
+seg1[1] <= ctseg1[1].DB_MAX_OUTPUT_PORT_TYPE
+seg1[2] <= ctseg1[2].DB_MAX_OUTPUT_PORT_TYPE
+seg1[3] <= ctseg1[3].DB_MAX_OUTPUT_PORT_TYPE
+seg0[0] <= ctseg0[0].DB_MAX_OUTPUT_PORT_TYPE
+seg0[1] <= ctseg0[1].DB_MAX_OUTPUT_PORT_TYPE
+seg0[2] <= ctseg0[2].DB_MAX_OUTPUT_PORT_TYPE
+seg0[3] <= ctseg0[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Washmachine|DynamicScan:dynamicScan_inst
+clk => count[0].CLK
+clk => count[1].CLK
+clk => seg_temp[0].CLK
+clk => seg_temp[1].CLK
+clk => seg_temp[2].CLK
+clk => seg_temp[3].CLK
+clk => enable_temp[0].CLK
+clk => enable_temp[1].CLK
+clk => enable_temp[2].CLK
+clk => enable_temp[3].CLK
+seg3[0] => seg_temp.DATAB
+seg3[1] => seg_temp.DATAB
+seg3[2] => seg_temp.DATAB
+seg3[3] => seg_temp.DATAB
+seg2[0] => seg_temp.DATAB
+seg2[1] => seg_temp.DATAB
+seg2[2] => seg_temp.DATAB
+seg2[3] => seg_temp.DATAB
+seg1[0] => seg_temp.DATAB
+seg1[1] => seg_temp.DATAB
+seg1[2] => seg_temp.DATAB
+seg1[3] => seg_temp.DATAB
+seg0[0] => seg_temp.DATAB
+seg0[1] => seg_temp.DATAB
+seg0[2] => seg_temp.DATAB
+seg0[3] => seg_temp.DATAB
+segment[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+segment[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+segment[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+segment[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+segment[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+segment[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+segment[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+enable[0] <= enable_temp[0].DB_MAX_OUTPUT_PORT_TYPE
+enable[1] <= enable_temp[1].DB_MAX_OUTPUT_PORT_TYPE
+enable[2] <= enable_temp[2].DB_MAX_OUTPUT_PORT_TYPE
+enable[3] <= enable_temp[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

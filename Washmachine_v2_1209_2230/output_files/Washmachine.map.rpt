@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Washmachine
-Sat Dec 09 22:41:45 2023
+Mon Dec 11 00:23:27 2023
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -49,7 +49,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sat Dec 09 22:41:45 2023      ;
+; Analysis & Synthesis Status        ; Successful - Mon Dec 11 00:23:27 2023      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; Washmachine                                ;
 ; Top-level Entity Name              ; Washmachine                                ;
@@ -171,20 +171,20 @@ applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                            ;
-+----------------------------------+-----------------+------------------------+-----------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                              ; Library ;
-+----------------------------------+-----------------+------------------------+-----------------------------------------------------------+---------+
-; Washmachine.v                    ; yes             ; User Verilog HDL File  ; D:/altera/13.1/00Project/Washmachine/Washmachine.v        ;         ;
-; WashmachineControl.v             ; yes             ; User Verilog HDL File  ; D:/altera/13.1/00Project/Washmachine/WashmachineControl.v ;         ;
-; TimeCounter.v                    ; yes             ; User Verilog HDL File  ; D:/altera/13.1/00Project/Washmachine/TimeCounter.v        ;         ;
-; DynamicScan.v                    ; yes             ; User Verilog HDL File  ; D:/altera/13.1/00Project/Washmachine/DynamicScan.v        ;         ;
-; SegDecode.v                      ; yes             ; User Verilog HDL File  ; D:/altera/13.1/00Project/Washmachine/SegDecode.v          ;         ;
-; PrescalerTen.v                   ; yes             ; User Verilog HDL File  ; D:/altera/13.1/00Project/Washmachine/PrescalerTen.v       ;         ;
-; PrescalerSix.v                   ; yes             ; User Verilog HDL File  ; D:/altera/13.1/00Project/Washmachine/PrescalerSix.v       ;         ;
-; PrescalerFour.v                  ; yes             ; User Verilog HDL File  ; D:/altera/13.1/00Project/Washmachine/PrescalerFour.v      ;         ;
-+----------------------------------+-----------------+------------------------+-----------------------------------------------------------+---------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                 ;
++----------------------------------+-----------------+------------------------+--------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                   ; Library ;
++----------------------------------+-----------------+------------------------+--------------------------------------------------------------------------------+---------+
+; Washmachine.v                    ; yes             ; User Verilog HDL File  ; C:/Users/azq/Desktop/PLD-Verilog/Washmachine_v2_1209_2230/Washmachine.v        ;         ;
+; WashmachineControl.v             ; yes             ; User Verilog HDL File  ; C:/Users/azq/Desktop/PLD-Verilog/Washmachine_v2_1209_2230/WashmachineControl.v ;         ;
+; TimeCounter.v                    ; yes             ; User Verilog HDL File  ; C:/Users/azq/Desktop/PLD-Verilog/Washmachine_v2_1209_2230/TimeCounter.v        ;         ;
+; DynamicScan.v                    ; yes             ; User Verilog HDL File  ; C:/Users/azq/Desktop/PLD-Verilog/Washmachine_v2_1209_2230/DynamicScan.v        ;         ;
+; SegDecode.v                      ; yes             ; User Verilog HDL File  ; C:/Users/azq/Desktop/PLD-Verilog/Washmachine_v2_1209_2230/SegDecode.v          ;         ;
+; PrescalerTen.v                   ; yes             ; User Verilog HDL File  ; C:/Users/azq/Desktop/PLD-Verilog/Washmachine_v2_1209_2230/PrescalerTen.v       ;         ;
+; PrescalerSix.v                   ; yes             ; User Verilog HDL File  ; C:/Users/azq/Desktop/PLD-Verilog/Washmachine_v2_1209_2230/PrescalerSix.v       ;         ;
+; PrescalerFour.v                  ; yes             ; User Verilog HDL File  ; C:/Users/azq/Desktop/PLD-Verilog/Washmachine_v2_1209_2230/PrescalerFour.v      ;         ;
++----------------------------------+-----------------+------------------------+--------------------------------------------------------------------------------+---------+
 
 
 +------------------------------------------------------------+
@@ -373,7 +373,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Sat Dec 09 22:41:43 2023
+    Info: Processing started: Mon Dec 11 00:23:24 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Washmachine -c Washmachine
 Info (11104): Parallel Compilation has detected 16 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 10 of the 10 physical processors detected instead.
 Info (12021): Found 1 design units, including 1 entities, in source file washmachine.v
@@ -411,9 +411,9 @@ Info (21057): Implemented 134 device resources after synthesis - the final resou
     Info (21059): Implemented 17 output pins
     Info (21061): Implemented 112 logic cells
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4667 megabytes
-    Info: Processing ended: Sat Dec 09 22:41:45 2023
-    Info: Elapsed time: 00:00:02
+    Info: Peak virtual memory: 4666 megabytes
+    Info: Processing ended: Mon Dec 11 00:23:27 2023
+    Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:02
 
 

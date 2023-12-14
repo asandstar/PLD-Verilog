@@ -1,0 +1,185 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'PrescalerTen:prescalerTen_inst2|clk_out'
+Slack : -3.403
+TNS   : -62.125
+
+Type  : Slow 1200mV 85C Model Setup 'clk_24M'
+Slack : -1.205
+TNS   : -11.724
+
+Type  : Slow 1200mV 85C Model Setup 'PrescalerSix:prescalerSix_inst|clk_out'
+Slack : -1.203
+TNS   : -2.759
+
+Type  : Slow 1200mV 85C Model Setup 'PrescalerFour:prescalerFour_inst|clk_out'
+Slack : -0.994
+TNS   : -2.570
+
+Type  : Slow 1200mV 85C Model Setup 'PrescalerTen:prescalerTen_inst1|clk_out'
+Slack : -0.961
+TNS   : -2.988
+
+Type  : Slow 1200mV 85C Model Hold 'PrescalerSix:prescalerSix_inst|clk_out'
+Slack : -0.387
+TNS   : -0.387
+
+Type  : Slow 1200mV 85C Model Hold 'PrescalerFour:prescalerFour_inst|clk_out'
+Slack : -0.256
+TNS   : -0.256
+
+Type  : Slow 1200mV 85C Model Hold 'PrescalerTen:prescalerTen_inst1|clk_out'
+Slack : -0.238
+TNS   : -0.238
+
+Type  : Slow 1200mV 85C Model Hold 'clk_24M'
+Slack : -0.011
+TNS   : -0.011
+
+Type  : Slow 1200mV 85C Model Hold 'PrescalerTen:prescalerTen_inst2|clk_out'
+Slack : 0.453
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_24M'
+Slack : -3.000
+TNS   : -28.279
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'PrescalerTen:prescalerTen_inst2|clk_out'
+Slack : -1.487
+TNS   : -43.123
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'PrescalerFour:prescalerFour_inst|clk_out'
+Slack : -1.487
+TNS   : -7.435
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'PrescalerSix:prescalerSix_inst|clk_out'
+Slack : -1.487
+TNS   : -7.435
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'PrescalerTen:prescalerTen_inst1|clk_out'
+Slack : -1.487
+TNS   : -7.435
+
+Type  : Slow 1200mV 0C Model Setup 'PrescalerTen:prescalerTen_inst2|clk_out'
+Slack : -3.092
+TNS   : -56.665
+
+Type  : Slow 1200mV 0C Model Setup 'clk_24M'
+Slack : -1.042
+TNS   : -9.530
+
+Type  : Slow 1200mV 0C Model Setup 'PrescalerSix:prescalerSix_inst|clk_out'
+Slack : -1.010
+TNS   : -2.286
+
+Type  : Slow 1200mV 0C Model Setup 'PrescalerFour:prescalerFour_inst|clk_out'
+Slack : -0.824
+TNS   : -2.128
+
+Type  : Slow 1200mV 0C Model Setup 'PrescalerTen:prescalerTen_inst1|clk_out'
+Slack : -0.814
+TNS   : -2.536
+
+Type  : Slow 1200mV 0C Model Hold 'PrescalerSix:prescalerSix_inst|clk_out'
+Slack : -0.265
+TNS   : -0.265
+
+Type  : Slow 1200mV 0C Model Hold 'PrescalerFour:prescalerFour_inst|clk_out'
+Slack : -0.104
+TNS   : -0.104
+
+Type  : Slow 1200mV 0C Model Hold 'PrescalerTen:prescalerTen_inst1|clk_out'
+Slack : -0.099
+TNS   : -0.099
+
+Type  : Slow 1200mV 0C Model Hold 'clk_24M'
+Slack : 0.092
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'PrescalerTen:prescalerTen_inst2|clk_out'
+Slack : 0.400
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_24M'
+Slack : -3.000
+TNS   : -28.279
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'PrescalerTen:prescalerTen_inst2|clk_out'
+Slack : -1.487
+TNS   : -43.123
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'PrescalerFour:prescalerFour_inst|clk_out'
+Slack : -1.487
+TNS   : -7.435
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'PrescalerSix:prescalerSix_inst|clk_out'
+Slack : -1.487
+TNS   : -7.435
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'PrescalerTen:prescalerTen_inst1|clk_out'
+Slack : -1.487
+TNS   : -7.435
+
+Type  : Fast 1200mV 0C Model Setup 'PrescalerTen:prescalerTen_inst2|clk_out'
+Slack : -0.869
+TNS   : -13.623
+
+Type  : Fast 1200mV 0C Model Setup 'clk_24M'
+Slack : 0.043
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'PrescalerSix:prescalerSix_inst|clk_out'
+Slack : 0.054
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'PrescalerFour:prescalerFour_inst|clk_out'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'PrescalerTen:prescalerTen_inst1|clk_out'
+Slack : 0.181
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'PrescalerFour:prescalerFour_inst|clk_out'
+Slack : -0.284
+TNS   : -0.284
+
+Type  : Fast 1200mV 0C Model Hold 'PrescalerSix:prescalerSix_inst|clk_out'
+Slack : -0.269
+TNS   : -0.269
+
+Type  : Fast 1200mV 0C Model Hold 'clk_24M'
+Slack : -0.262
+TNS   : -0.262
+
+Type  : Fast 1200mV 0C Model Hold 'PrescalerTen:prescalerTen_inst1|clk_out'
+Slack : -0.226
+TNS   : -0.226
+
+Type  : Fast 1200mV 0C Model Hold 'PrescalerTen:prescalerTen_inst2|clk_out'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_24M'
+Slack : -3.000
+TNS   : -20.935
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'PrescalerTen:prescalerTen_inst2|clk_out'
+Slack : -1.000
+TNS   : -29.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'PrescalerFour:prescalerFour_inst|clk_out'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'PrescalerSix:prescalerSix_inst|clk_out'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'PrescalerTen:prescalerTen_inst1|clk_out'
+Slack : -1.000
+TNS   : -5.000
+
+------------------------------------------------------------

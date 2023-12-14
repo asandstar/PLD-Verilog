@@ -1,0 +1,4 @@
+module TimeCounter(
+	input wire clk,
+	input 
+);

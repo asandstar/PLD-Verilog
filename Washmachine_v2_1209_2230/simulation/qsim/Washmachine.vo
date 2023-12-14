@@ -16,7 +16,7 @@
 // PROGRAM "Quartus II 64-Bit"
 // VERSION "Version 13.1.0 Build 162 10/23/2013 SJ Web Edition"
 
-// DATE "12/09/2023 22:42:07"
+// DATE "12/11/2023 00:23:53"
 
 // 
 // Device: Altera EP3C25Q240C8 Package PQFP240
@@ -241,17 +241,17 @@ wire \segDecode_inst|WideOr3~0_combout ;
 wire \segDecode_inst|WideOr2~0_combout ;
 wire \segDecode_inst|WideOr1~0_combout ;
 wire \segDecode_inst|WideOr0~0_combout ;
+wire [3:0] \dynamicScan_inst|seg ;
+wire [5:0] \washmachineControl_inst|state_led ;
+wire [3:0] \prescalerTen_inst1|count ;
 wire [2:0] \washmachineControl_inst|state_out ;
+wire [3:0] \timeCounter_inst|ctseg2 ;
+wire [3:0] \prescalerSix_inst|count ;
+wire [3:0] \prescalerTen_inst2|count ;
+wire [3:0] \timeCounter_inst|ctseg0 ;
 wire [3:0] \timeCounter_inst|ctseg1 ;
 wire [3:0] \prescalerFour_inst|count ;
 wire [3:0] \timeCounter_inst|ctseg3 ;
-wire [3:0] \prescalerTen_inst2|count ;
-wire [3:0] \prescalerTen_inst1|count ;
-wire [3:0] \prescalerSix_inst|count ;
-wire [5:0] \washmachineControl_inst|state_led ;
-wire [3:0] \timeCounter_inst|ctseg0 ;
-wire [3:0] \dynamicScan_inst|seg ;
-wire [3:0] \timeCounter_inst|ctseg2 ;
 
 
 // Location: IOOBUF_X49_Y0_N9

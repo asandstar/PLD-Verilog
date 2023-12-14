@@ -484,10 +484,10 @@ Z156 !s100 RQXG_F0TP9Y>OO?nQmaV:0
 !s85 0
 !s101 -O0
 vWashmachine
-Z157 IJHZV[MEkT;XdoT@;Z9E6o2
+Z157 IzXIDG^_c^IY;7;9^zHD;:1
 Z158 VG=nnPlWHGGJBD5nD1eiFG3
-R3
-Z159 w1702132794
+Z159 dC:\Users\azq\Desktop\PLD-Verilog\Washmachine_v2_1209_2230\simulation\qsim
+Z160 w1702172618
 R5
 R6
 L0 31
@@ -496,79 +496,79 @@ r1
 31
 R8
 R9
-Z160 n@washmachine
-!i10b 1
-Z161 !s100 Cf=IVT2:B2SL2TkWn<i5H3
-!s85 0
-Z162 !s108 1702132795.933000
+Z161 n@washmachine
+Z162 !s100 Jlk]ILX9PiQDf@_>k3Od13
+Z163 !s108 1702172619.971000
 R13
+!i10b 1
+!s85 0
 !s101 -O0
 vWashmachine_vlg_check_tst
-!i10b 1
-Z163 !s100 ^H6o<BaTL5EmnE[Oa1=h83
-Z164 IU7WVF9`IFYC:G;4SkU5EU1
-Z165 VJl4NKk;>z>1U_O8;?2I3b3
+Z164 !s100 ^H6o<BaTL5EmnE[Oa1=h83
+Z165 IU7WVF9`IFYC:G;4SkU5EU1
+Z166 VJl4NKk;>z>1U_O8;?2I3b3
 R3
-Z166 w1702132793
-Z167 8testmachine.vwf.vt
-Z168 Ftestmachine.vwf.vt
+Z167 w1702132793
+Z168 8testmachine.vwf.vt
+Z169 Ftestmachine.vwf.vt
 L0 65
 R7
 r1
-!s85 0
 31
-Z169 !s108 1702132796.053000
-Z170 !s107 testmachine.vwf.vt|
-Z171 !s90 -work|work|testmachine.vwf.vt|
-!s101 -O0
+Z170 !s108 1702132796.053000
+Z171 !s107 testmachine.vwf.vt|
+Z172 !s90 -work|work|testmachine.vwf.vt|
 R9
-Z172 n@washmachine_vlg_check_tst
-vWashmachine_vlg_sample_tst
+Z173 n@washmachine_vlg_check_tst
 !i10b 1
-Z173 !s100 ^NG6bCGW?YW7[<9;E^fVh3
-Z174 I;M_7GQdi5bKj^4EnhmcBh3
-Z175 V5lJ_?[NTZPMmUZ6Iz^e0c3
+!s85 0
+!s101 -O0
+vWashmachine_vlg_sample_tst
+Z174 !s100 ^NG6bCGW?YW7[<9;E^fVh3
+Z175 I;M_7GQdi5bKj^4EnhmcBh3
+Z176 V5lJ_?[NTZPMmUZ6Iz^e0c3
 R3
-R166
 R167
 R168
+R169
 L0 29
 R7
 r1
-!s85 0
 31
-R169
 R170
 R171
-!s101 -O0
+R172
 R9
-Z176 n@washmachine_vlg_sample_tst
-vWashmachine_vlg_vec_tst
+Z177 n@washmachine_vlg_sample_tst
 !i10b 1
-!s100 fizoN<Jo2ClF?UacUIAmH3
-I[of5R7GSLb7SQbW@:7S5h3
-Z177 Vb7`UIIHm;A8efT60<hd3Q3
-R3
-R166
-R167
-R168
-Z178 L0 480
+!s85 0
+!s101 -O0
+vWashmachine_vlg_vec_tst
+Z178 INn_3geQnR4d3ojf^>4?;:0
+Z179 Vb7`UIIHm;A8efT60<hd3Q3
+R159
+Z180 w1702172616
+R142
+R143
+L0 29
 R7
 r1
-!s85 0
 31
-R169
-R170
-R171
-!s101 -O0
+R146
 R9
-Z179 n@washmachine_vlg_vec_tst
+Z181 n@washmachine_vlg_vec_tst
+Z182 !s100 lTzNh8_KO`PXl8INn4kKa2
+Z183 !s108 1702172620.092000
+R145
+!i10b 1
+!s85 0
+!s101 -O0
 vWashmachineControl
-Z180 !s100 W6Tm;2M5MK2>e^UUGg;cZ3
-Z181 I?LAI]CEZD3Ul_8`54Ke6c2
-Z182 VOAA@dzPJ2=76NQH]fVWQA2
-R3
-Z183 w1702124601
+Z184 !s100 W6Tm;2M5MK2>e^UUGg;cZ3
+Z185 I?LAI]CEZD3Ul_8`54Ke6c2
+Z186 VOAA@dzPJ2=76NQH]fVWQA2
+R159
+Z187 w1702225377
 R5
 R6
 L0 31
@@ -577,69 +577,69 @@ r1
 31
 R8
 R9
-Z184 n@washmachine@control
-Z185 !s108 1702124601.954000
-R13
+Z188 n@washmachine@control
 !i10b 1
 !s85 0
+Z189 !s108 1702225378.566000
+R13
 !s101 -O0
 vWashmachineControl_vlg_check_tst
-Z186 !s100 hcP9Q=gL_G`zedjmQG81h0
-Z187 IoC7DeZh5iz2njc;jUbmNL0
-Z188 VLd4?VNaS72M<4lQ2bP]^72
-R3
-Z189 w1702124599
-Z190 8testmachinecontrol.vwf.vt
-Z191 Ftestmachinecontrol.vwf.vt
+!i10b 1
+Z190 !s100 hcP9Q=gL_G`zedjmQG81h0
+Z191 IoC7DeZh5iz2njc;jUbmNL0
+Z192 VLd4?VNaS72M<4lQ2bP]^72
+R159
+Z193 w1702225375
+Z194 8testmachinecontrol.vwf.vt
+Z195 Ftestmachinecontrol.vwf.vt
 L0 73
 R7
 r1
-31
-Z192 !s108 1702124602.043000
-Z193 !s107 testmachinecontrol.vwf.vt|
-Z194 !s90 -work|work|testmachinecontrol.vwf.vt|
-R9
-Z195 n@washmachine@control_vlg_check_tst
-!i10b 1
 !s85 0
+31
+Z196 !s108 1702225378.723000
+Z197 !s107 testmachinecontrol.vwf.vt|
+Z198 !s90 -work|work|testmachinecontrol.vwf.vt|
 !s101 -O0
+R9
+Z199 n@washmachine@control_vlg_check_tst
 vWashmachineControl_vlg_sample_tst
-Z196 !s100 hD<2``aE;iz=Em[AZ@S0G1
-Z197 IzKoCj8>D_6jj6eOf]hYFg0
-Z198 Vefz;I;?c874FE:]Y=X5>32
-R3
-R189
-R190
-R191
+!i10b 1
+Z200 !s100 hD<2``aE;iz=Em[AZ@S0G1
+Z201 IzKoCj8>D_6jj6eOf]hYFg0
+Z202 Vefz;I;?c874FE:]Y=X5>32
+R159
+R193
+R194
+R195
 L0 29
 R7
 r1
+!s85 0
 31
-R192
+R196
+R197
+R198
+!s101 -O0
+R9
+Z203 n@washmachine@control_vlg_sample_tst
+vWashmachineControl_vlg_vec_tst
+!i10b 1
+Z204 !s100 >]<Vz]nnd[Vo;aEgoh[3a1
+Z205 IY<5=RQg2:fj7Z7[^m6nP:3
+Z206 V[QE1zR`=D>0aD1DG]<:z80
+R159
 R193
 R194
-R9
-Z199 n@washmachine@control_vlg_sample_tst
-!i10b 1
-!s85 0
-!s101 -O0
-vWashmachineControl_vlg_vec_tst
-Z200 IY<5=RQg2:fj7Z7[^m6nP:3
-Z201 V[QE1zR`=D>0aD1DG]<:z80
-R3
-R189
-R190
-R191
-Z202 L0 319
+R195
+Z207 L0 319
 R7
 r1
-31
-R192
-R193
-R194
-R9
-Z203 n@washmachine@control_vlg_vec_tst
-Z204 !s100 >]<Vz]nnd[Vo;aEgoh[3a1
-!i10b 1
 !s85 0
+31
+R196
+R197
+R198
 !s101 -O0
+R9
+Z208 n@washmachine@control_vlg_vec_tst
